@@ -1,0 +1,131 @@
+<!doctype html>
+<!-- 앱에 번들되는 사본이며, 그대로 speechble.github.io의 index.html로 배포한다. -->
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Speechble 개인정보처리방침">
+  <link rel="canonical" href="https://speechble.github.io/">
+  <title>Speechble 개인정보처리방침</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #29251f;
+      --muted: #6c655c;
+      --paper: #fffdf8;
+      --accent: #8a6818;
+      --line: #e8dfcf;
+      --soft: #f7f0df;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f3eee5;
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
+      line-height: 1.75;
+      word-break: keep-all;
+    }
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 40px auto;
+      padding: clamp(28px, 6vw, 58px);
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 12px 36px rgb(65 50 28 / 8%);
+    }
+    .brand {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 0; font-size: clamp(1.8rem, 5vw, 2.45rem); line-height: 1.25; }
+    .lead { margin: 18px 0 34px; color: var(--muted); }
+    h2 {
+      margin: 36px 0 12px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+      color: var(--accent);
+      font-size: 1.18rem;
+    }
+    p { margin: 10px 0; }
+    ul { margin: 10px 0; padding-left: 1.3rem; }
+    li { margin: 9px 0; }
+    .notice {
+      margin: 30px 0 0;
+      padding: 18px 20px;
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      background: var(--soft);
+    }
+    .contact { overflow-wrap: anywhere; }
+    footer {
+      margin-top: 38px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    @media (max-width: 540px) {
+      main { width: 100%; margin: 0; border: 0; border-radius: 0; box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <p class="brand">Speechble</p>
+  <h1>개인정보처리방침</h1>
+  <p class="lead">개인정보처리자 장민석(이하 “처리자”)은 Speechble을 이용하는 분의 정보를 소중히 다루며, 다음과 같이 개인정보처리방침을 공개합니다.</p>
+
+  <h2>1. 처리하는 정보와 이용 목적</h2>
+  <ul>
+    <li><strong>마이크 입력:</strong> 사용자가 낭독을 시작했을 때 성경 낭독 여부를 확인하기 위해 실시간으로 처리합니다. 음성 인식은 기기 안에서 이루어지며, 원본 음성과 전체 음성 인식 문장은 저장하거나 기기 밖으로 전송하지 않습니다. 사용자의 음성을 음성 모델의 학습이나 개선에 사용하지 않습니다.</li>
+    <li><strong>통독 기록:</strong> 읽은 책·장·절, 통독 회차, 낭독 시간, 예상 시간, 완료 여부와 시각, 이어 읽기 위치 및 낭독 시도 횟수를 기기 안에 저장합니다. 통독 진도 표시, 이어 읽기 및 완료 판정에만 사용합니다.</li>
+    <li><strong>앱 설정:</strong> 선택한 번역본, 낭독 방식, 자동 스크롤 속도 등 사용자가 정한 설정을 기기 안에 저장합니다.</li>
+    <li><strong>사용자가 넣은 번역본:</strong> 번역본 이름·언어와 성경 본문을 기기 안에 저장하여 본문 열람, 검색 및 낭독 확인에 사용합니다.</li>
+    <li><strong>기술 정보:</strong> 앱이 비정상적으로 종료된 원인을 확인하기 위해 Android가 제공하는 종료 시각·사유와 메모리 수치를 기기 안에서 확인합니다. 낭독 내용, 음성 또는 인식 문장은 포함하지 않습니다.</li>
+  </ul>
+  <p>현재 앱은 광고, 맞춤형 광고, 이용자 추적 또는 외부 분석 기능을 사용하지 않습니다. 앱에는 인터넷 권한이 없으며 위 정보를 기기 밖으로 전송하지 않습니다.</p>
+
+  <h2>2. 마이크 권한</h2>
+  <p>마이크 권한은 사용자가 낭독 확인 기능을 실행할 때만 사용합니다. Android 설정에서 언제든지 권한을 철회할 수 있습니다. 권한을 철회해도 본문 열람과 저장된 진도 확인은 가능하지만 음성 낭독 확인은 사용할 수 없습니다.</p>
+
+  <h2>3. 보유 기간과 파기</h2>
+  <p>기기 안의 통독 기록, 설정 및 사용자가 넣은 번역본은 사용자가 해당 정보를 지우거나 앱 데이터를 삭제하거나 앱을 삭제할 때까지 보관됩니다. 원본 음성은 인식에 필요한 동안 메모리에서만 처리한 뒤 즉시 폐기하며 파일로 보관하지 않습니다.</p>
+  <p>앱 데이터 또는 앱을 삭제하면 기기 안의 자료는 삭제됩니다. 다만 사용자가 별도로 만든 <code>.speechble</code> 백업 파일은 자동으로 삭제되지 않으므로 저장한 위치에서 직접 삭제해야 합니다.</p>
+
+  <h2>4. 백업 파일</h2>
+  <p>사용자가 직접 백업을 실행하면 통독 회차, 장·절 진도, 낭독 시간, 이어 읽기 기록, 동의 이력, 선택한 설정과 사용자가 넣은 번역본의 본문이 <code>.speechble</code> 파일에 포함될 수 있습니다. 원본 음성과 전체 음성 인식 문장은 포함되지 않습니다.</p>
+  <p><code>.speechble</code> 파일은 암호화되지 않은 휴대용 백업 파일입니다. 저장 위치와 공유 대상을 신중하게 선택해 주세요. 사용자가 Google Drive, 메신저 등 외부 저장소나 앱을 직접 선택해 저장·공유한 경우에는 해당 서비스의 개인정보처리방침과 보안 정책이 적용됩니다.</p>
+
+  <h2>5. 제3자 제공·처리 위탁·국외 이전</h2>
+  <p>현재 앱은 개인정보를 제3자에게 제공하지 않고, 개인정보 처리 업무를 외부 업체에 위탁하지 않으며, 개인정보를 국외로 이전하지 않습니다.</p>
+
+  <h2>6. 이용자의 권리와 행사 방법</h2>
+  <p>사용자는 앱에서 진도를 확인하거나 지울 수 있고, Android 설정에서 앱 데이터 전체를 삭제하거나 마이크 권한을 철회할 수 있습니다. 처리자는 기기 안에만 있는 자료에 원격으로 접근하거나 대신 복구할 수 없습니다.</p>
+  <p>개인정보 처리에 관한 문의, 열람·정정·삭제·처리정지 요청 또는 이의 제기는 아래 연락처로 보낼 수 있습니다.</p>
+  <p class="contact"><strong>개인정보처리자:</strong> 장민석<br><strong>문의:</strong> amma1204@gmail.com</p>
+  <p>개인정보 침해 상담은 개인정보침해신고센터(국번 없이 118), 분쟁 조정은 개인정보분쟁조정위원회(1833-6972)를 이용할 수 있습니다.</p>
+
+  <h2>7. 안전성 확보 조치</h2>
+  <p>앱 전용 저장소를 사용하고 Android 자동 백업을 사용하지 않습니다. 저장소 권한과 인터넷 권한을 요구하지 않으며, 원본 음성과 전체 인식 문장을 저장하지 않는 방식으로 처리 정보를 최소화합니다.</p>
+
+  <h2>8. 처리방침 변경</h2>
+  <p>이 방침은 기능 또는 법령 변경에 따라 수정될 수 있으며, 중요한 변경은 앱 안에서 알리겠습니다.</p>
+
+  <div class="notice">
+    <strong>웹 공개본 제공 안내</strong><br>
+    이 공개 문서는 GitHub Pages에서 제공됩니다. 공개본에 접속하면 GitHub가 서비스 보안 목적으로 접속 IP 주소를 기록·보관할 수 있습니다. 앱 안에 포함된 로컬 방침을 읽을 때에는 이러한 웹 접속이 발생하지 않습니다.
+  </div>
+
+  <footer>
+    시행일: 2026년 8월 12일<br>
+    © 2026 Speechble
+  </footer>
+</main>
+</body>
+</html>
